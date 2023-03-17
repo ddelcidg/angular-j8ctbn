@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 /** @title Select with 2-way value binding */
 @Component({
@@ -7,9 +7,8 @@ import {Component} from '@angular/core';
   styleUrls: ['select-value-binding-example.css'],
 })
 export class SelectValueBindingExample {
-  selected = 'option2';
+  selected = 'none';
 }
-
 
 /**  Copyright 2018 Google Inc. All Rights Reserved.
     Use of this source code is governed by an MIT-style license that
